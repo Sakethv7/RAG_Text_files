@@ -1,0 +1,5 @@
+Machine learning is a subset of artificial intelligence that enables computers to learn and make decisions from data without being explicitly programmed for every task.
+
+There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning uses labeled data to train models, while unsupervised learning finds patterns in unlabeled data.
+
+Applications of machine learning include image recognition, natural language processing, recommendation systems, and predictive analytics. Deep learning, which uses neural networks with multiple layers, has revolutionized fields like computer vision and speech recognition.

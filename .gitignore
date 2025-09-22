@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+rag_env/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Generated RAG files
+doc_store.json
+vector_store.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
