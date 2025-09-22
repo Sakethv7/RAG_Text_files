@@ -1,4 +1,4 @@
-## RAG System - From Scratch
+# RAG System - From Scratch
 A simple Retrieval Augmented Generation (RAG) system built without LangChain or LlamaIndex to understand the core concepts.
 What it does
 
@@ -8,7 +8,7 @@ Creates embeddings (vectors) for semantic search
 Finds relevant content for your questions
 Generates answers using OpenAI GPT
 
-# Quick Setup
+## Quick Setup
 1. Install
 bashpip install transformers torch numpy sentence-transformers openai python-dotenv
 2. Add your OpenAI API key
@@ -21,28 +21,28 @@ bashpython test_rag.py
 How to use
 pythonfrom rag_system import RAGSystem
 
-# Initialize
+## Initialize
 rag = RAGSystem()
 
-# Process your documents (run once)
+## Process your documents (run once)
 rag.process_documents_pipeline("documents")
 
-# Ask questions
+## Ask questions
 result = rag.query("What is machine learning?")
 print(result['response'])
 
-# Files
+## Files
 rag_system.py - Main RAG implementation
 test_rag.py - Test the complete system
 requirements.txt - Dependencies
 documents/ - Put your text files here
 
-# Models Used
+## Models Used
 
 Embeddings: sentence-transformers/all-MiniLM-L6-v2 (converts text to vectors)
 LLM: gpt-3.5-turbo (generates final answers)
 
-# How it works
+## How it works
 Your Documents → Text Chunks → Embeddings → Vector Search → GPT Response
 
 Documents get split into smaller chunks
